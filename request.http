@@ -1,0 +1,56 @@
+POST http://localhost:4002/info
+Content-Type: application/json
+
+{
+    "login": "Caique",
+    "senha": 5632
+}
+
+###
+GET http://localhost:4002/info
+
+###
+GET http://localhost:4002/info/3ec44fc2-f7c3-4074-b48e-4d46be2fa1a2
+
+###
+PUT http://localhost:4002/info/91cd2605-699b-43be-a581-47a0bef704d2
+Content-Type: application/json
+
+{
+    "login": "vicente",
+    "senha": 12534
+}
+
+###
+DELETE http://localhost:4002/info/9e708b2d-e2da-460a-91ec-b994e3a1e910
+
+
+###
+
+POST http://localhost:4002/products
+Content-Type: application/json
+
+{
+    "name": "Televisão smart 4k",
+    "price": 2.500
+}
+
+###
+
+GET http://localhost:4002/products
+
+###
+GET http://localhost:4002/products/2b5b23bd-267a-42aa-ad5c-68beccc0b339
+
+###
+PUT http://localhost:4002/products/7b86eb26-8374-4dbd-8af8-54313cb38d07
+Content-Type: application/json
+
+{
+    "name": "Caderno 90 folhas preto",
+    "price": 12
+}
+
+###
+
+DELETE http://localhost:4002/products/a6afd5a7-53c4-47ae-a31e-bed3ae5a92bc

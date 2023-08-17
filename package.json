@@ -1,0 +1,16 @@
+{
+  "name": "iniciando_com_node",
+  "version": "1.0.0",
+  "description": "projeto ecommerce",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "Caique da Silva Vicente",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "sqlite3": "^5.1.6"
+  }
+}
